@@ -8,4 +8,5 @@ jobs:
       - uses: ebookipedia/install@main
         with:
             url: ${{github.event.repository.description}}
+      - run: ls
 
